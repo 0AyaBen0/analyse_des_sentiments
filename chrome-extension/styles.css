@@ -1,0 +1,14 @@
+:root{
+  --bg: #fff;
+  --text: #111;
+  --card: #f8f8f8;
+}
+body{ font-family: Arial, sans-serif; background:var(--bg); color:var(--text); width:360px; padding:10px; }
+header{display:flex; justify-content:space-between; align-items:center;}
+.controls{display:flex; gap:6px; flex-direction:column; margin:8px 0;}
+#apiUrl{width:100%; padding:6px;}
+#status{font-size:13px; color:#666;}
+#commentsList{max-height:300px; overflow:auto; margin-top:8px;}
+.comment{padding:6px; border-radius:6px; background:var(--card); margin-bottom:6px;}
+.dark{ --bg:#111; --text:#eee; --card:#1b1b1b;}
+button{padding:6px 8px; cursor:pointer;}
